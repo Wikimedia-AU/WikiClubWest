@@ -12,14 +12,21 @@
         a { font-weight:bolder; text-decoration:underline }
         a:hover { color:yellow }
         main { background-color: rgba(8,20,85,0.65) }
+        footer a { text-decoration:none }
     </style>
 </head>
 <body>
 
-<main class="container">
-    <header class="page-header">
-        <h1 class="title">WikiClubWest</h1>
-        <p class="subtitle">The Western Australian branch of Wikimedia Australia</p>
+<main class="container" itemscope itemtype="http://schema.org/Organization">
+    <header class="page-header row">
+        <p class="col-xs-2">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/WikiClubWest_logo.svg/129px-WikiClubWest_logo.svg.png" alt="Our logo: an outline of Western Australia with the words 'Wiki Club West' written over it."
+                itemprop="logo" class="img-responsive" />
+        </p>
+        <div class="col-xs-10">
+            <h1 class="title" itemprop="name">WikiClubWest</h1>
+            <p class="subtitle" itemprop="description">The Western Australian branch of Wikimedia Australia</p>
+        </div>
     </header>
     <div class="row">
         <article class="col-md-5" id="about">
@@ -48,13 +55,18 @@
             <h2>Events</h2>
             <iframe style="width:100%; height:300px" src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=wikimedia.org_fogl26gi7hv3a4q1mn5au35eac%40group.calendar.google.com&amp;color=%230F4B38&amp;ctz=Australia%2FPerth" scrolling="no">
             </iframe>
-            <p>To add or edit events, please email <a href="mailto:sam@samwilson.id.au">Sam Wilson</a>.</p>
+            <p>
+                Also availble as an
+                <a href="https://calendar.google.com/calendar/ical/wikimedia.org_fogl26gi7hv3a4q1mn5au35eac%40group.calendar.google.com/public/basic.ics">icalendar feed</a>.
+                To add or edit events, please email <a href="mailto:sam@samwilson.id.au">Sam Wilson</a>.
+            </p>
         </article>
     </div>
     <footer class="text-center">
         <hr />
         <ul class="list-inline">
             <li><a class="text-muted" href="https://github.com/samwilson/WikiClubWest/edit/gh-pages/index.html">Edit this page</a></li>
+            <li><a class="text-muted" href="https://commons.wikimedia.org/wiki/File:WikiClubWest_logo.svg">Logo details</a></li>
             <li><a class="text-muted" href="https://www.flickr.com/photos/freosam/35558217665">Background image CC-BY-SA</a></li>
         </ul>
     </footer>
