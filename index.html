@@ -11,6 +11,7 @@
         h1, h2, p, a, ul { color:white }
         a { text-decoration:underline }
         a:hover { color:yellow }
+        a:visited { color:white }
         main { background-color: rgba(8,20,85,0.65) }
         footer a { text-decoration:none }
     </style>
@@ -18,15 +19,11 @@
 <body>
 
 <main class="container" itemscope itemtype="http://schema.org/Organization">
-    <header class="page-header row">
-        <p class="col-xs-2">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/WikiClubWest_logo.svg" alt="Our logo: an outline of Western Australia with the words 'Wiki Club West' written over it."
-                itemprop="logo" class="img-responsive" />
-        </p>
-        <div class="col-xs-10">
-            <h1 class="title" itemprop="name">WikiClubWest</h1>
-            <p class="subtitle" itemprop="description">The Western Australian branch of Wikimedia Australia</p>
-        </div>
+    <header class="page-header clearfix">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/WikiClubWest_logo.svg" alt="Our logo: an outline of Western Australia with the words 'Wiki Club West' written over it."
+             itemprop="logo" class="pull-left" />
+        <h1 class="title" itemprop="name">WikiClubWest</h1>
+        <p class="subtitle" itemprop="description">The Western Australian branch of Wikimedia Australia</p>
     </header>
     <div class="row">
         <article class="col-md-5" id="about">
