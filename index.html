@@ -1,90 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>WikiClubWest</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-    <style type="text/css">
-        h1, h2, p, a, ul { color:white }
-        a { text-decoration:underline }
-        a:hover { color:yellow }
-        a:visited { color:white }
-        main { background-color: rgba(8,20,85,0.65) }
-        footer a { text-decoration:none }
-    </style>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>WikiClubWest</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+	<style type="text/css">
+		h1, h2, p, a, ul { color:white }
+		a { text-decoration:underline }
+		a:hover { color:yellow }
+		a:visited, a:focus { color:white }
+		main { background-color:rgba(8, 20, 85, 0.65) }
+		footer a { text-decoration:none }
+	</style>
 </head>
 <body>
 
 <main class="container" itemscope itemtype="http://schema.org/Organization">
-    <header class="page-header row">
-        <div class="col-xs-2">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/WikiClubWest_logo.svg" alt="Our logo: an outline of Western Australia with the words 'Wiki Club West' written over it."
-             itemprop="logo" class="img-responsive" />
-        </div>
-        <div class="col-xs-10">
-            <h1 class="title" itemprop="name">WikiClubWest</h1>
-            <p class="subtitle" itemprop="description">The Western Australian branch of Wikimedia Australia</p>
-        </div>
-    </header>
-    <div class="row">
-        <article class="col-md-5" id="about">
-            <h2>About</h2>
-            <p>
-                <strong>WikiClubWest</strong> is the name of
-                the Western Australian branch of <a href="https://wikimedia.org.au/" itemprop="branchOf">Wikimedia Australia</a>.
-                It exists to further the aims of
-                the <a href="https://meta.wikimedia.org/wiki/Wikimedia_movement">Wikimedia movement</a>,
-                especially in relation to
-                <a href="https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Western_Australia">Western Australian topics</a>
-                or for
-                <a href="https://en.wikipedia.org/wiki/Category:Wikipedians_in_Western_Australia">Wikimedia contributors</a>
-                who live in this state.
-            </p>
-            <p>
-                For more information, please see our page on Meta-Wiki, or engage with us wherever you are on social media:
-            </p>
-            <ul>
-                <li><a href="https://meta.wikimedia.org/wiki/WikiClubWest">
-                    <span class="glyphicon glyphicon-star-empty"></span>
-                    WikiClubWest on Meta-Wiki
-                    <span class="glyphicon glyphicon-star-empty"></span>
-                </a></li>
-                <li><a href="https://facebook.com/wikimedia.au.west">Facebook page</a></li>
-                <li><a href="https://twitter.com/wikiclubwest">Twitter account</a></li>
-                <li><a href="https://t.me/joinchat/AAAAAA1LrjEYG1srJuT9JA">Telegram group chat</a></li>
-                <li><a href="https://etherpad.wikimedia.org/p/wikiclubwest">Etherpad collaborative note-taking</a></li>
-            </ul>
-        </article>
-        <article class="col-md-7" id="events">
-            <h2>Events</h2>
-            <iframe style="width:100%; height:300px" src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=wikimedia.org_fogl26gi7hv3a4q1mn5au35eac%40group.calendar.google.com&amp;color=%230F4B38&amp;ctz=Australia%2FPerth" scrolling="no">
-            </iframe>
-            <p>
-                Also availble as an
-                <a href="https://calendar.google.com/calendar/ical/wikimedia.org_fogl26gi7hv3a4q1mn5au35eac%40group.calendar.google.com/public/basic.ics">icalendar feed</a>.
-                To add or edit events, please email <a href="mailto:sam@samwilson.id.au">Sam Wilson</a>.
-            </p>
-        </article>
-    </div>
-    <footer class="text-center">
-        <hr />
-        <ul class="list-inline">
-            <li><a class="text-muted" href="http://wikiclubwest.org.au/" itemprop="url">wikiclubwest.org.au</a></li>
-            <li><a class="text-muted" href="https://github.com/samwilson/WikiClubWest/edit/gh-pages/index.html">Edit this page</a></li>
-            <li><a class="text-muted" href="https://commons.wikimedia.org/wiki/File:WikiClubWest_logo.svg">Logo details</a></li>
-            <li><a class="text-muted" href="https://www.flickr.com/photos/freosam/35558217665">Background image CC-BY-SA</a></li>
-        </ul>
-    </footer>
+	<header class="page-header row">
+		<div class="col-xs-2">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/WikiClubWest_logo.svg"
+				 alt="Our logo: an outline of Western Australia with the words 'Wiki Club West' written over it."
+				 itemprop="logo" class="img-responsive"/>
+		</div>
+		<div class="col-xs-10">
+			<h1 class="title" itemprop="name">WikiClubWest</h1>
+			<p class="subtitle" itemprop="description">The Western Australian branch of Wikimedia Australia</p>
+		</div>
+	</header>
+	<div class="row">
+		<article class="col-md-5" id="about">
+			<h2>About</h2>
+			<p>
+				<strong>WikiClubWest</strong> is the name of
+				the Western Australian branch of <a href="https://wikimedia.org.au/" itemprop="branchOf">Wikimedia
+				Australia</a>.
+				It exists to further the aims of
+				the <a href="https://meta.wikimedia.org/wiki/Wikimedia_movement">Wikimedia movement</a>,
+				especially in relation to
+				<a href="https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Western_Australia">Western Australian
+					topics</a>
+				or for
+				<a href="https://en.wikipedia.org/wiki/Category:Wikipedians_in_Western_Australia">Wikimedia
+					contributors</a>
+				who live in this state.
+			</p>
+			<p>
+				For more information, please see our page on Meta-Wiki, or engage with us wherever you are on social
+				media:
+			</p>
+			<ul>
+				<li><a href="https://meta.wikimedia.org/wiki/WikiClubWest">
+					<span class="glyphicon glyphicon-star-empty"></span>
+					WikiClubWest on Meta-Wiki
+					<span class="glyphicon glyphicon-star-empty"></span>
+				</a></li>
+				<li><a href="https://facebook.com/wikimedia.au.west">Facebook page</a></li>
+				<li><a href="https://twitter.com/wikiclubwest">Twitter account</a></li>
+				<li><a href="https://webchat.freenode.net/?channels=#wikimedia-au">Internet Relay Chat</a></li>
+				<li><a href="https://etherpad.wikimedia.org/p/wikiclubwest">Etherpad collaborative note-taking</a></li>
+			</ul>
+		</article>
+		<article class="col-md-7" id="events">
+			<h2>Events</h2>
+			<iframe style="width:100%; height:300px"
+					src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=wikimedia.org_fogl26gi7hv3a4q1mn5au35eac%40group.calendar.google.com&amp;color=%230F4B38&amp;ctz=Australia%2FPerth"
+					scrolling="no">
+			</iframe>
+			<p>
+				Also availble as an
+				<a href="https://calendar.google.com/calendar/ical/wikimedia.org_fogl26gi7hv3a4q1mn5au35eac%40group.calendar.google.com/public/basic.ics">icalendar
+					feed</a>.
+				To add or edit events, please email <a href="mailto:sam@samwilson.id.au">Sam Wilson</a>.
+			</p>
+		</article>
+	</div>
+	<footer class="text-center">
+		<hr/>
+		<ul class="list-inline">
+			<li><a class="text-muted" href="http://wikiclubwest.org.au/" itemprop="url">wikiclubwest.org.au</a></li>
+			<li><a class="text-muted" href="https://github.com/samwilson/WikiClubWest/edit/gh-pages/index.html">Edit
+				this page</a></li>
+			<li><a class="text-muted" href="https://commons.wikimedia.org/wiki/File:WikiClubWest_logo.svg">Logo
+				details</a></li>
+			<li><a class="text-muted" href="https://www.flickr.com/photos/freosam/35558217665">Background image
+				CC-BY-SA</a></li>
+		</ul>
+	</footer>
 </main>
 
 <script type="application/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script type="application/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
+<script type="application/javascript"
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script type="application/javascript"
+		src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
 <script type="application/javascript">
-    $.backstretch('https://farm5.staticflickr.com/4208/35558217665_398a3d49e9_k.jpg');
+	$.backstretch('https://farm5.staticflickr.com/4208/35558217665_398a3d49e9_k.jpg');
 </script>
 </body>
 </html>
